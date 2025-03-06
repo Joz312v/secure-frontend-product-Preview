@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Product Preview Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+<body>
+  <main class="product-card">
+    <figure class="product-image">
+      <picture>
+        <source srcset="./images/image-product-mobile.jpg" media="(max-width: 600px)">
+        <img src="./images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfum bottle">
+      </picture>
+    </figure>
+
+    <section class="product-details">
+      <p class="category">P e r f u m e</p>
+      <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="product-description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      
+      <div class="product-pricing">
+        <span class="price">$149.99</span>
+        <span class="old-price"><s>$169.99</s></span>
+      </div>
+
+      <!-- Quantity Selector -->
+      <div class="quantity-selector">
+        <button class="decrease">−</button>
+        <span class="quantity">1</span>
+        <button class="increase">+</button>
+      </div>
+      
+      <!-- Add to Cart Button -->
+      <button class="cart-button">
+        <img src="./images/icon-cart.svg" alt="Cart icon">Add to Cart
+      </button>
+
+      <!-- Lightbox -->
+      <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="./images/image-product-mobile.jpg" alt="Product">
+      </div>
+
+      <!-- Cart Confirmation Message -->
+      <div class="cart-message">Item added to cart!</div>
+
+      <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/Joz312v">Joz312v</a>.
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
