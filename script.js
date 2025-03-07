@@ -64,3 +64,4 @@ document.querySelector(".decrease").addEventListener("click", async () => {
     console.error("Error updating quantity:", error);
   }
 });
+
