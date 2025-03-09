@@ -34,7 +34,8 @@ Users should be able to:
 
 ### Screenshot
 ![](Product-preview.gif)
-![](images/FM-SS1-product-Preview-challenge.PNG)
+![](mobile-SS.jpg)
+![](mobile-SS2.jpg)
 
 
 ### Links
