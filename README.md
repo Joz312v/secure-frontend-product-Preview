@@ -35,8 +35,7 @@ Users should be able to:
 ### Screenshot
 ![](Product-preview.gif)
 
-<img src="mobile-SS.jpg" width="300">
-<img src="mobile-SS2.jpg" width="300">
+<img src="mobile-SS.jpg" width="300"><img src="mobile-SS2.jpg" width="300">
 
 ### Links
 
