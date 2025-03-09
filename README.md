@@ -36,7 +36,8 @@ Users should be able to:
 ![](Product-preview.gif)
 ![](mobile-SS.jpg)
 ![](mobile-SS2.jpg)
-
+<img src="mobile-SS.jpg" width="300">
+<img src="mobile-SS2.jpg" width="300">
 
 ### Links
 
