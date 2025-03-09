@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Joz312v/secure-frontend-product-Preview)
-- Live Site URL: [Live Preview](https://api-proxy-product-preview-production.up.railway.app/)
+- Live Site URL: [Live Preview](https://frontend-product-preview-challenge.netlify.app/)
 
 ## My process
 
