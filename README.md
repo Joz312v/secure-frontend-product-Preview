@@ -33,8 +33,8 @@ Users should be able to:
 
 
 ### Screenshot
-![](./images/Product-preview.gif)
-![](./images/FM-SS1-product-Preview-challenge.PNG)
+![](Product-preview.gif)
+![](images/FM-SS1-product-Preview-challenge.PNG)
 
 
 ### Links
